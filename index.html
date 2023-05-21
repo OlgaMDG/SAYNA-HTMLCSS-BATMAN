@@ -25,20 +25,20 @@
     </header>
     <main>
         <!--La première section de la partie PO-->
-        <section>
-            <p>Au nom de ses parents assassinés, Bruce Wayne mène une guerre éternelle contre les
-                criminels de Gotham City. Il est vengeur. Il est la nuit.
-                <h2>Il est Batman.</h2> 
-            </p>
-            <!--Bouton
-            <button>VOIR LE HEROS</button>
-            <button>LES ADVERSAIRES</button>-->
-            <!--ou bien des liens. On met div parce que ce sont deux elements qui se ressemblent-->
-            <div>
-                <a href="#">VOIR LE HEROS</a>
-                <a href="#">LES ADVERSAIRES</a>
-            </div>  
-            <a href=""><img src="./assets/Logos/flèche_down_header.png" alt="Flèche down"></a>
+        <section id="hero">
+            <div class="container">
+                <div class="content">
+                    <p class="texte fade-in">Au nom de ses parents assassinés, Bruce Wayne mène une guerre éternelle contre les
+                        criminels de Gotham City. Il est vengeur. Il est la nuit.
+                    </p>
+                        <h2 class="titre fade-in">Il est Batman.</h2> 
+                    <div class="cta" class="fade-in"><!--cta: des boutons qu'on va cliquer dessous-->
+                        <a href="#cinema" class="btn ">VOIR LE HEROS</a>
+                        <a href="#nemesis" class="btn ">LES ADVERSAIRES</a>
+                    </div> 
+                </div> 
+            </div> 
+            <a href=""><img src="./assets/Logos/flèche_down_header.png" class="fleche" alt="Flèche down"></a>
         </section>
         
         <!--La deuxième section, Batman au cinéma-->
