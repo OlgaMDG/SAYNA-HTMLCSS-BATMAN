@@ -12,10 +12,6 @@ document.getElementById('confirmer').addEventListener('click', function() {
       alert("Veuillez remplir tous les champs et accepter les termes et conditions.");
     }
   });
- 
-  
-  
-  
   
   
   
